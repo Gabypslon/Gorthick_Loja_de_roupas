@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    
+}
+
+body {
+
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.background {
+
+    background-color: #380011;
+}
+
+.header-background {
+
+    background-color: #000000;
+
+}
+
+.header {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin: 0px 50px;
+}
+
+
+/*-- LOGO ------------------------------------------------------------*/
+.logo {
+
+    width: 98px;
+    height: 43px;
+    
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FF004D;
+}
+
+.menu-cliente{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.entrar-cadastre-se {
+
+    width: 220px;
+    height: 41px;
+
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+.txt-carrinho {
+
+    
+    
+    width: 220px;
+    height: 41px;
+
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.txt-price {
+
+    width: 57px;
+    height: 36px;
+
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #FF004D;
+
+}
+
+.carrinho {
+
+    margin-bottom: -3px;
+    
+}
+
+
+/*-- MAIN ------------------------------------------------------------*/
+
+main {
+
+
+}
+
+.background-menu {
+
+    background: #5C3342;
+
+}
+
+.menu-options-top {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0px 50px;
+
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+li{
+    list-style: none;
+}
+
+.menu-options {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style: none;
+    color: #FFFFFF;
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 108.58%;
+    /* identical to box height, or 38px */
+
+}
+
+.search-body {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    box-sizing: border-box;
+    padding: 1px 1px;
+
+    background: #2D0010;
+    border: 1px solid #A2536F;
+    border-radius: 40px;
+    margin: 1px 1px;
+
+
+
+
+}
+
+.seach-txt {
+
+    border: none;
+    background: none;
+
+    outline: none; /*tira a borda quando clica em cima da barra de pesquisa*/
+
+    padding: 0px;
+    color: #ffffff;
+
+    font-family: 'Lucida Calligraphy';
+    font-style: italic;
+    font-size: 20px;
+    width: 0;
+    transition: .5s;
+
+
+}
+
+.search-btn{
+
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2D0010;
+    transition: .5s;
+
+}
+
+.search-body:hover>.seach-txt {
+
+    width: 268px;
+    padding: 0 20px;
+
+}
+
+.search-body:hover>.search-btn {
+
+
+
+}
+
+::-webkit-input-placeholder {
+
+    color: #A1536F;
+
+}
+
+
+.lupa {
+
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+
+
+}
+
+
+/* H1  -----------------------------------------------------------------*/
+
+h1 {
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}
+
+/* VEJA-MAIS ----------------------------------------------*/
+
+.veja-mais {
+    
+    text-decoration: none; /* remove a decoração de texto do link */
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    color: #FFFFFF;
+    
+}
+
+/* H2 ----------------------------------------------------*/
+
+h2 {
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    /* identical to box height */
+    color: #FF004D;
+}
