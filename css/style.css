@@ -390,7 +390,7 @@ li{
     font-family: 'Old English Text MT';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 23px;
 line-height: 108.58%;
 /* identical to box height, or 22px */
 
@@ -419,7 +419,9 @@ text-shadow: 0px 2px 2px #FF004D;
 .meios-de-pagamento {
 
     display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
 
@@ -429,9 +431,21 @@ text-shadow: 0px 2px 2px #FF004D;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding: 5px;
 
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.img-pagamentos{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 
 }
 
@@ -459,4 +473,14 @@ h3 {
     line-height: 43px;
     /* identical to box height */
     color: #FF004D;
+}
+
+.infos-footer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 }
