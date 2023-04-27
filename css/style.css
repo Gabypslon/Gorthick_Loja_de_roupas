@@ -7,6 +7,27 @@
     
 }
 
+@font-face {
+    font-family: 'Niagara Solid';
+    src: url(../font/niagara-solid.ttf);
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Old English Text MT';
+    src: url(../font/old-english-text-mt.ttf);
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Lucida Calligraphy';
+    src: url(../font/LCALLIG.TTF);
+    font-weight: normal;
+    font-style: normal;
+ }
+
 body {
 
     margin: 0;
@@ -393,18 +414,18 @@ li{
 .infos-footer {
 
     font-family: 'Old English Text MT';
-font-style: normal;
-font-weight: 400;
-font-size: 23px;
-line-height: 108.58%;
-/* identical to box height, or 22px */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 108.58%;
+    /* identical to box height, or 22px */
 
-text-align: center;
-letter-spacing: 0.085em;
+    text-align: center;
+    letter-spacing: 0.085em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
-text-shadow: 0px 2px 2px #FF004D;
+    text-shadow: 0px 2px 2px #FF004D;
 
 }
 
@@ -472,6 +493,7 @@ h2 {
 /* H3 ----------------------------------------------------*/
 
 h3 {
+
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
