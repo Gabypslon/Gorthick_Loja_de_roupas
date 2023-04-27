@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compra - Loja de Roupas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <!-- Cabeçalho da página com o logotipo da loja, menu de navegação e carrinho de compras -->
+    </header>
+    <main>
+      <h1>Finalizar Compra</h1>
+      <form action="processar_compra.php" method="post">
+        <fieldset>
+          <legend>Dados do Comprador</legend>
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+          </div>
+          <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+          </div>
+          <div>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+              <option value="">Selecione</option>
+              <option value="SP">São Paulo</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="MG">Minas Gerais</option>
+              <!-- outras opções de estado aqui -->
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Dados do Pagamento</legend>
+          <div>
+            <label for="cartao">Número do Cartão:</label>
+            <input type="text" id="cartao" name="cartao" required>
+          </div>
+          <div>
+            <label for="validade">Validade:</label>
+            <input type="month" id="validade" name="validade" required>
+          </div>
+          <div>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+          </div>
+        </fieldset>
+        <button type="submit">Finalizar Compra</button>
+      </form>
+    </main>
+    <footer>
+      <!-- Rodapé da página com informações de contato e direitos autorais -->
+    </footer>
+  </body>
+</html>

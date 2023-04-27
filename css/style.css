@@ -75,7 +75,7 @@ body {
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 37px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -94,7 +94,7 @@ body {
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 37px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -110,7 +110,7 @@ body {
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 37px;
     text-align: center;
 
@@ -135,6 +135,8 @@ main {
 .background-menu {
 
     background: #5C3342;
+
+
 
 }
 
@@ -176,7 +178,7 @@ li{
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 108.58%;
     /* identical to box height, or 38px */
 
@@ -208,7 +210,6 @@ li{
 
     border: none;
     background: none;
-
     outline: none; /*tira a borda quando clica em cima da barra de pesquisa*/
 
     padding: 0px;
@@ -216,7 +217,7 @@ li{
 
     font-family: 'Lucida Calligraphy';
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     width: 0;
     transition: .5s;
 
@@ -225,31 +226,13 @@ li{
 
 .search-btn{
 
+    display: flex;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background: #2D0010;
     transition: .5s;
-
-}
-
-.search-body:hover>.seach-txt {
-
-    width: 268px;
-    padding: 0 20px;
-
-}
-
-.search-body:hover>.search-btn {
-
-
-
-}
-
-::-webkit-input-placeholder {
-
-    color: #A1536F;
 
 }
 
@@ -258,25 +241,53 @@ li{
 
     display: flex;
     align-items: center; 
-    padding: 10px;
+    padding: 6px;
 
 
 }
 
+.search-body:hover>.seach-txt {
 
-/* H1  -----------------------------------------------------------------*/
+    width: 242px;
+    padding: 0 20px;
 
-h1 {
-    font-family: 'Niagara Solid';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 43px;
-
-    color: #FFFFFF;
 }
 
-/* VEJA-MAIS ----------------------------------------------*/
+.search-body:hover>.search-btn {
+
+
+}
+
+::-webkit-input-placeholder {
+
+    color: #A1536F
+
+}
+
+
+
+/* DESTAQUES  -----------------------------------------------------------------*/
+
+.destaques-background {
+
+    background: rgba(92, 51, 66, 0.33);
+
+}
+
+.destaques {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0px 50px;
+
+
+}
+
+/* VEJA-MAIS */
 
 .veja-mais {
     
@@ -290,9 +301,157 @@ h1 {
     
 }
 
-/* H2 ----------------------------------------------------*/
 
+/* FOOTER ----------------------------------------------------------------*/
+.footer-menu-background {
+
+ background: #000000;
+
+}
+
+.footer-menu {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+
+    padding: 100px;
+
+}
+
+.redes-sociais-footer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+.nos-siga {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 20px;
+
+}
+
+.redes-sociais {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px 10px;
+    
+
+}
+
+/*-----------------------------------------------------------------*/
+
+.contatos-footer {
+
+    padding: 50px;
+
+}
+
+.fale-conosco{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.infos-div {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+
+}
+
+.infos-footer {
+
+    font-family: 'Old English Text MT';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 108.58%;
+/* identical to box height, or 22px */
+
+text-align: center;
+letter-spacing: 0.085em;
+
+color: #FFFFFF;
+
+text-shadow: 0px 2px 2px #FF004D;
+
+}
+
+/* PAGAMENTOS ------------------------------------------------*/
+
+.pagamentos-footer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 14px;
+    padding: 50px;
+
+}
+
+.meios-de-pagamento {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.imgs-metodos-pagamento {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+
+/* H2 --------------------------------------------------------*/
 h2 {
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 2px 2px #FF004D;
+}
+
+/* H3 ----------------------------------------------------*/
+
+h3 {
     font-family: 'Niagara Solid';
     font-style: normal;
     font-weight: 400;
